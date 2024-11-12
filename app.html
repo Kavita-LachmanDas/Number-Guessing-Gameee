@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main">
+            <h1>Number Guessing <br> <br> Game</h1>
+            <p>Choose difficulty: 
+                <select id="difficulty">
+                    <option value="10">Easy (1-10)</option>
+                    <option value="50">Medium (1-50)</option>
+                    <option value="100">Hard (1-100)</option> 
+                </select>
+            </p>
+
+            <button id="start" onclick="startGame()">Start Game</button>
+            <p id="text" style="display: none;"></p>
+            <input type="number" id="number" style="display: none;"> <br>
+            <button id="buttonguess" style="display: none;" onclick="makeGuess()">Guess</button>
+            <p id="correct"></p>
+            <p id="att"></p>
+            <!-- <button id="play" onclick="makeGuess()" style="display: none;"></button> -->
+            <h2>Leaderboard</h2>
+           
+
+           
+        </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

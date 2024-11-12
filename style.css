@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+  
+    background-image: url('https://media.gettyimages.com/id/1431916947/video/4k-resolution-digital-binary-data-streaming-code-matrix-background-programming-coding-hacker.jpg?s=640x640&k=20&c=tDgE3yjV33aq1Lt9K59Xs4Kyf9OKO2z-CCRKvKZbt5g=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container{
+    width: 100vw;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+text-align: center;
+    justify-content: center;
+margin-top: 100px;
+}
+.main{
+    /* background-color: blue; */
+    text-align: center;
+        width: 40vw;
+        height: 90vh;
+        padding: 20px;
+        gap: 20px;
+        line-height: 20px;
+        border: 2px solid gray;
+        border-radius: 10%;
+        background-color: transparent;
+       background-color: rgba(20, 30, 10, .7);
+}
+
+
+h1{
+    text-align: center;
+   font-size: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+p{
+    font-size: 20px;
+    padding: 30px;
+}
+select{
+    width: 150px;
+    padding: 12px;
+    background-color: rgb(169, 156, 43);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+option{
+    width: 150px;
+    padding: 12px;
+    background-color: rgb(169, 156, 43);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+#start{
+    width: 170px;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: bisque;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#number{
+    width: 250px;
+    padding: 9px;
+    margin: 0 auto;
+ 
+    background-color:  rgba(255, 228, 196, 0.203);
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+
+#buttonguess{
+    padding: 12px;
+    width: 140px;
+    /* background-color: azure; */
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    font-size: 15px;
+    
+}
+
+#play{
+width: 150px;
+padding: 9px;
+background-color: red;
+color: black;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0 auto;
+}
